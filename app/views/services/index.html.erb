@@ -1,0 +1,5 @@
+<h1>コース一覧</h1>
+
+<div>1週間でサイト運営者コース</div>
+<%= image_tag 'https://fecayman.com/wp-content/uploads/2019/12/top11.png', width: "440", height: "200" %>
+<%= button_to '購入', checkout_create_path, method: :post, remote: true %> <%# 購入商品のidなども引き渡すことができる → ,params: {id: product.id} %>
